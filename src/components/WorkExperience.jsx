@@ -1,10 +1,10 @@
 export default function WorkExperience() {
     return (
-        <div className="flex flex-col  pl-20 pt-56 ">
+        <div className="lg:pl-20 pt-80 pr-10">
             <div className="text-white text-6xl">Work Experience</div>
-            <div className="flex  justify-around pt-20 pr-10 space-x-5">
+            <div className="grid lg:grid-cols-3 gap-y-10 lg:gap-10 pt-20 sm:grid-cols-1">
 
-                <div className="w-1/3  shadow-lg rounded-lg overflow-hidden relative border border-gray-300 transform transition-transform duration-500 hover:scale-105">
+                <div className="shadow-lg rounded-lg overflow-hidden relative border border-gray-300 transform transition-transform duration-500 hover:scale-105">
                     <img className=" h-44 object-cover  w-full" src="bfi.jpg" />
                     <div className="flex flex-col justify-center items-center text-white pt-5 space-y-5">
                         <h2 className="text-3xl">End of Study Project</h2>
@@ -17,7 +17,7 @@ export default function WorkExperience() {
                     </div>
                 </div>
 
-                <div className="w-1/3 shadow-lg rounded-lg overflow-hidden relative  border border-gray-300 transform transition-transform duration-500 hover:scale-105">
+                <div className="shadow-lg rounded-lg overflow-hidden relative  border border-gray-300 transform transition-transform duration-500 hover:scale-105">
                     <img className=" h-44 object-cover  w-full" src="bfi.jpg" />
 
                     <div className="flex flex-col justify-center items-center text-white pt-5 space-y-5">
@@ -31,7 +31,7 @@ export default function WorkExperience() {
                     </div>
                 </div>
 
-                <div className="w-1/3   shadow-lg rounded-lg overflow-hidden relative  border border-gray-300 transform transition-transform duration-500 hover:scale-105">
+                <div className="shadow-lg rounded-lg overflow-hidden relative  border border-gray-300 transform transition-transform duration-500 hover:scale-105">
                     <img className=" h-44 object-cover  w-full" src="yasmine.png" />
 
                     <div className="flex flex-col justify-center items-center text-white pt-5 space-y-5">

@@ -1,3 +1,4 @@
+import Blogs from "./components/Blogs";
 import Education from "./components/Education";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -15,6 +16,7 @@ export default function App() {
       <Education/>
       <WorkExperience/>
       <Projects/>
+      <Blogs/>
     </div>
   )
 }

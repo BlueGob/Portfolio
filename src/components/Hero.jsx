@@ -5,7 +5,7 @@ export default function Hero(){
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col items-center lg:items-start text-white">
-                        <h1 className="pt-20 lg:pl-20 tracking-tighter lg:mt-16 lg:text-7xl ">
+                        <h1 className="pt-20 lg:pl-20 tracking-tighter lg:mt-16 lg:text-7xl">
                             Welcome, I'm Moslem <span class="wave-emoji">👋</span>
                         </h1>
                         <p className="lg:pl-20 pt-10 text-3xl font-light leading-relaxed">
