@@ -1,33 +1,36 @@
 export default function Education() {
     return (
-        <div className="flex flex-col items-start pl-20 text-white">
-             <div className="text-white text-6xl pb-12 ">Education</div>
-            <div className="flex items-center space-x-8 ">  
-                <div>
-                    <img src="isi.png" alt="Institut Superieure d'informatique" className=" object-cover" />
-                </div>
-                <div className="flex flex-col space-y-2">
-                    <div className="text-3xl ">Institut Supérieur d'Informatique</div>
-                    <div className="text-xl font-extralight ">2021 - 2024</div>
-                    <h2 className="text-2xl font-thin  ">National Engineering Degree</h2>
-                    <h2 className="text-2xl font-thin"><span className="underline">Specialization:</span> Software Development Engineering</h2>
-                </div>
-                
-            </div>
-            <hr className="w-3/4 "/>
-            <div className="flex items-center space-x-8">
-                <div>
-                    <img src="isi.png" alt="Institut Superieure d'informatique" className=" object-cover" />
-                </div>
-                <div className="flex flex-col space-y-2">
-                    <div className="text-3xl ">Institut Supérieur d'Informatique</div>
-                    <div className="text-xl font-extralight ">2018 - 2021</div>
+        <div>
+            <div className="lg:pl-20 md:pr-20  text-white">
+                <div className="md:text-6xl text-5xl pl-5 md:pl-0">Education</div>
 
-                    <h2 className="text-2xl font-thin  ">National Applied Bachelor's Degree in Computer Science</h2>
-                    <h2 className="text-2xl font-thin"><span className="underline">Specialization:</span> Computer Systems and Software</h2>
+                <div className="flex flex-col items-center md:flex-row gap-y-10 lg:gap-10 pt-20 ">
+                    <div>
+                        <img src="isi.png" alt="Institut Superieure d'informatique" className=" object-cover" />
+                    </div>
+                    <div className="flex flex-col md:items-start items-center space-y-3  text-center">
+                        <div className="md:text-3xl text-2xl">Institut Supérieur d'Informatique</div>
+                        <div className="text-xl font-extralight ">2021 - 2024</div>
+                        <div className="text-2xl font-thin  ">National Engineering Degree</div>
+                        <div className="text-2xl font-thin "><span className="underline">Specialization:</span> Software Development Engineering</div>
+                    </div>
                 </div>
+                <hr className="md:w-3/4 " />
+
+                <div className="flex flex-col items-center md:flex-row gap-y-10 lg:gap-10 pt-20 ">
+                    <div>
+                        <img src="isi.png" alt="Institut Superieure d'informatique" className="object-cover" />
+                    </div>
+                    <div className="flex flex-col md:items-start items-center space-y-3 text-center">
+                        <div className="md:text-3xl text-2xl">Institut Supérieur d'Informatique</div>
+                        <div className="text-xl font-extralight">2018 - 2021</div>
+                        <div className="text-2xl font-thin p-2 md:p-0">National Applied Bachelor's Degree in Computer Science</div>
+                        <div className="text-2xl font-thin "><span className="underline">Specialization:</span> Computer Systems and Software</div>
+                    </div>
+                </div>
+
+                <hr className="md:w-3/4 " />
             </div>
-            <hr className="w-3/4 "/>
 
         </div>
     );

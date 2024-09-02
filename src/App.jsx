@@ -1,4 +1,5 @@
 import Blogs from "./components/Blogs";
+import ContactMe from "./components/ContactMe";
 import Education from "./components/Education";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -17,6 +18,7 @@ export default function App() {
       <WorkExperience/>
       <Projects/>
       <Blogs/>
+      <ContactMe/>
     </div>
   )
 }

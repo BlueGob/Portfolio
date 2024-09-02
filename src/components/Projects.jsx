@@ -3,8 +3,8 @@ import { FaCodeFork } from "react-icons/fa6";
 import { GoRepo } from "react-icons/go";
 export default function Projects() {
     return (
-        <div className="lg:pl-20 pt-80 pr-10">
-            <div className="text-white text-6xl">Projects</div>
+        <div className="md:pl-20 md:pr-20 pt-60 pl-5 pr-5">
+            <div className="text-white md:text-6xl text-5xl">Projects</div>
             <div className="grid lg:grid-cols-4 gap-y-10 lg:gap-10 pt-20 sm:grid-cols-1 ">
                 
                 <a href="https://github.com/BlueGob/LL1" >

@@ -1,8 +1,8 @@
 import { PiHandsClapping } from "react-icons/pi";
 export default function Blogs() {
     return (
-        <div className="lg:pl-20 pt-80 pr-10">
-            <div className="text-white text-6xl">Blogs</div>
+        <div className="md:pl-20 md:pr-20 pt-60 pr-5 pl-5">
+            <div className="text-white md:text-6xl text-5xl">Blogs</div>
             <div className="grid lg:grid-cols-3 gap-y-10 lg:gap-10 pt-20 sm:grid-cols-1 ">
                 
                 <a href="https://medium.com/@moslemgannoun/a-comprehensive-guide-to-start-scrapy-middlewares-cf2495ebcc53" >

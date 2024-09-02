@@ -1,8 +1,8 @@
 export default function WorkExperience() {
     return (
-        <div className="lg:pl-20 pt-80 pr-10">
-            <div className="text-white text-6xl">Work Experience</div>
-            <div className="grid lg:grid-cols-3 gap-y-10 lg:gap-10 pt-20 sm:grid-cols-1">
+        <div className="lg:pl-20 p-5 pt-60 md:pr-20 pr-5">
+            <div className="text-white md:text-6xl text-5xl">Work Experience</div>
+            <div className="grid md:grid-cols-3 gap-y-10 md:gap-10 pt-20 grid-cols-1">
 
                 <div className="shadow-lg rounded-lg overflow-hidden relative border border-gray-300 transform transition-transform duration-500 hover:scale-105">
                     <img className=" h-44 object-cover  w-full" src="bfi.jpg" />
