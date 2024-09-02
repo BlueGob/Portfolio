@@ -4,6 +4,7 @@ import Education from "./components/Education";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
+import WhatIdo from "./components/WhatIDo";
 import WorkExperience from "./components/WorkExperience";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       </div>
       <Navbar/>
       <Hero/>
+      <WhatIdo/>
       <Education/>
       <WorkExperience/>
       <Projects/>
