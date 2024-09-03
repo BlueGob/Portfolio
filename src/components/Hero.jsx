@@ -1,32 +1,35 @@
 import './wave.css'
-export default function Hero(){
-    return(
-        <div className="border-b border-neutral-900 pb-4 lg:mb-35 h-svh">
-            <div className="flex flex-wrap">
-                <div className="w-full lg:w-1/2">
-                    <div className="flex flex-col items-center lg:items-start text-white">
-                        <h1 className="pt-20 lg:pl-20 tracking-tighter lg:mt-16 text-3xl md:text-7xl">
-                            Welcome, I'm Moslem <span class="wave-emoji">👋</span>
-                        </h1>
-                        <p className=" pl-5 md:pl-20 pt-10 md:text-3xl text-xl font-light leading-relaxed">
-                            I’m a software engineer with a passion for machine learning, deep learning, and data science.
-                            I have a strong grasp of Python, C++, and React.js,
-                            and I love building efficient, user-friendly solutions that make a difference.                        
-                        </p>
-                    </div>
-                    <div className="pl-5 pr-5 md:pl-20 pt-20 flex justify-start space-x-10 text-white items-center">
-                            <button className="bg-blue-700 text-white  px-6 py-4 md:w-1/5 w-1/2 rounded-full text-lg md:text-xl transition-colors duration-800 hover:bg-white hover:text-blue-700">
-                                My Resume
-                            </button>
-                            <button className="bg-blue-700 text-white px-6 py-4 md:w-1/5 w-1/2 rounded-full text-xl transition-colors duration-800 hover:bg-white hover:text-blue-700">
-                                Contact me
-                            </button>
-                    </div>
-                </div>
-                <div className="w-full lg:w-1/2">
-                </div>
+import LottieControl from './LottieAnimation'
+import * as animationData from '../assets/hello.json'
+import { motion } from 'framer-motion'
+export default function Hero() {
+    let lottie = new LottieControl()
+
+    return (
+        <div className="grid grid-cols-1 md:grid-cols-2 pb-4 md:mb-35 mt-6 md:mt-36 h-lvh">
+            <div className='text-white'>
+                <motion.h1 transition={{duration:0.5, delay: 0.25}} initial={{x:-300, opacity:0}} animate={{ x: 0, opacity:1 }} className=" md:pl-20 tracking-tighter lg:mt-16 text-3xl md:text-7xl md:text-left text-center">
+                    Welcome, I'm Moslem <span className="wave-emoji">👋</span>
+                </motion.h1>
+                <motion.p transition={{duration:0.5, delay: 0.4}} initial={{x:-300, opacity:0}} animate={{ x: 0, opacity:1 }} className=" pl-5 md:pl-20 pt-10 md:text-3xl text-xl font-light leading-relaxed">
+                    I’m a software engineer with a passion for machine learning, deep learning, and data science.
+                    I have a strong grasp of Python, C++, and React.js,
+                    and I love building efficient, user-friendly solutions that make a difference.
+                </motion.p>
+                <motion.div transition={{duration:0.5, delay: 0.5}} initial={{y:200, opacity:0}} animate={{ y: 0, opacity:1 }} className="pl-10 pr-10 md:ml-20 md:pt-20 pt-5 flex justify-start space-x-10 text-white items-center">
+                    <button className="bg-blue-700 text-white px-2 py-4 md:w-1/5 w-1/2 rounded-full text-lg md:text-xl transition-colors duration-800 hover:bg-white hover:text-blue-700">
+                        My Resume
+                    </button>
+                    <button className="bg-blue-700 text-white px-2 py-4 md:w-1/5 w-1/2 rounded-full text-lg md:text-xl transition-colors duration-800 hover:bg-white hover:text-blue-700">
+                        Contact me
+                    </button>
+                </motion.div>
+
             </div>
-            
+            <div  className='md:ml-28 md:-mt-0 -mt-32'>
+            <LottieControl className="md:w-3/4 md:h-2/3" lottie_image={animationData} />
+
+            </div>
         </div>
     )
 }

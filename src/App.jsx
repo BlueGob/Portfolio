@@ -14,13 +14,13 @@ export default function App() {
         <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       </div>
       <Navbar/>
-      <Hero/>
-      <WhatIdo/>
-      <Education/>
-      <WorkExperience/>
-      <Projects/>
-      <Blogs/>
-      <ContactMe/>
+      <Hero id="hero"/>
+      <WhatIdo id="skills"/>
+      <Education id="education"/>
+      <WorkExperience id="work"/>
+      <Projects id="projects"/>
+      <Blogs id="blogs"/>
+      <ContactMe id="contact"/>
     </div>
   )
 }
