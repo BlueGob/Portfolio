@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <nav className="bg-white border-gray-200 dark:bg-transparent p-4 md:p-6">
       <div className="grid grid-flow-col grid-rows-1 justify-between">
-        <div className="text-2xl font-semibold  dark:text-white">
+        <div className="text-2xl font-semibold  dark:text-white" style={{fontFamily:"Playwrite CU"}}>
           Moslem Gannoun
         </div>
         <div>
