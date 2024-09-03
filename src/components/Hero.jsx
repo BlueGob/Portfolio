@@ -3,8 +3,12 @@ import LottieControl from './LottieAnimation'
 import * as animationData from '../assets/hello.json'
 import { motion } from 'framer-motion'
 export default function Hero() {
-    let lottie = new LottieControl()
-
+    const handleScroll = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+          }
+      };
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 pb-4 md:mb-35 mt-6 md:mt-36 h-lvh">
             <div className='text-white'>
@@ -20,7 +24,7 @@ export default function Hero() {
                     <button className="bg-blue-700 text-white px-2 py-4 md:w-1/5 w-1/2 rounded-full text-lg md:text-xl transition-colors duration-800 hover:bg-white hover:text-blue-700">
                         My Resume
                     </button>
-                    <button className="bg-blue-700 text-white px-2 py-4 md:w-1/5 w-1/2 rounded-full text-lg md:text-xl transition-colors duration-800 hover:bg-white hover:text-blue-700">
+                    <button onClick={()=>handleScroll("contact")} className="bg-blue-700 text-white px-2 py-4 md:w-1/5 w-1/2 rounded-full text-lg md:text-xl transition-colors duration-800 hover:bg-white hover:text-blue-700">
                         Contact me
                     </button>
                 </motion.div>

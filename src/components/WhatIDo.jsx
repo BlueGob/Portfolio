@@ -13,7 +13,7 @@ export default function WhatIdo({ id }) {
                 <div>
                     <motion.p viewport={{ once: true }} initial={{ x: 200, opacity: 0 }} transition={{ duration: 0.5 }} whileInView={{ opacity: 1, x: 0 }} className="md:text-2xl text-xl mb-16 font-light md:mt-20 mt-10">I'm Software engineer Who has experience in Machine Learning, Deep Learning and automation.
                         I create multiple projects using the following stack.</motion.p>
-                    <motion.div viewport={{ once: true }} initial={{ x: 200, opacity: 0 }} transition={{ duration: 0.5 }} whileInView={{ opacity: 1, x: 0 }} className="flex flex-wrap space-x-3">
+                    <motion.div viewport={{ once: true }} initial={{ x: 200, opacity: 0 }} transition={{ duration: 0.5 }} whileInView={{ opacity: 1, x: 0 }} className="flex flex-wrap space-x-2">
                         <img src="python.png" className="w-20 h-20" />
                         <img src="sklearn.png" className="w-24 h-16" />
                         <img src="tensorflow.png" className="w-16 h-16" />
