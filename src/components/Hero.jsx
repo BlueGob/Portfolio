@@ -3,19 +3,13 @@ import LottieControl from './LottieAnimation'
 import * as animationData from '../assets/hello.json'
 import { motion } from 'framer-motion'
 export default function Hero() {
-    const handleScroll = (sectionId) => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
-          }
-      };
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 pb-4 md:mb-35 mt-6 md:mt-36 h-lvh">
+        <div className="grid grid-cols-1 md:grid-cols-2 pb-4 md:mb-35 mt-20 md:mt-36 h-lvh">
             <div className='text-white'>
-                <motion.h1 transition={{duration:0.5, delay: 0.25}} initial={{x:-300, opacity:0}} animate={{ x: 0, opacity:1 }} className=" md:pl-20 tracking-tighter lg:mt-16 text-3xl md:text-7xl md:text-left text-center">
+                <motion.h1  transition={{duration:0.5, delay: 0.25}} initial={{  x: -300, opacity:0}} animate={{ x: 0, opacity:1 }} className=" md:pl-20 tracking-tighter lg:mt-16 text-3xl md:text-7xl md:text-left text-center">
                     Welcome, I'm Moslem <span className="wave-emoji">👋</span>
                 </motion.h1>
-                <motion.p transition={{duration:0.5, delay: 0.4}} initial={{x:-300, opacity:0}} animate={{ x: 0, opacity:1 }} className=" pl-5 md:pl-20 pt-10 md:text-3xl text-xl font-light leading-relaxed">
+                <motion.p transition={{duration:0.5, delay: 0.4}} initial={{x: -300, opacity:0}} animate={{ x: 0, opacity:1 }} className=" pl-5 md:pl-20 pt-10 md:text-3xl text-xl font-light leading-relaxed">
                     I’m a software engineer with a passion for machine learning, deep learning, and data science.
                     I have a strong grasp of Python, C++, and React.js,
                     and I love building efficient, user-friendly solutions that make a difference.
