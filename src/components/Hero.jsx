@@ -3,6 +3,13 @@ import LottieControl from './LottieAnimation'
 import * as animationData from '../assets/hello.json'
 import { motion } from 'framer-motion'
 export default function Hero() {
+    const handleScroll = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+        setOpen(false);
+      };
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 pb-4 md:mb-35 mt-20 md:mt-36 h-lvh">
             <div className='text-white'>
