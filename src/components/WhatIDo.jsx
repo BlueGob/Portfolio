@@ -25,7 +25,8 @@ export default function WhatIdo({ id }) {
                     <LottieControl className="w-3/4 h-3/4" lottie_image={animationData} />
                 </div>
                 <div>
-                    <motion.p viewport={{ once: true }} initial={{ x: isMobile?0:200, opacity: 0 }} transition={{ duration: 0.5 }} whileInView={{ opacity: 1, x: 0 }} className="md:text-2xl text-xl mb-16 font-light md:mt-20 mt-10">I'm Software engineer Who has experience in Machine Learning, Deep Learning and automation.
+                    <motion.p viewport={{ once: true }} initial={{ x: isMobile?0:200, opacity: 0 }} transition={{ duration: 0.5 }} whileInView={{ opacity: 1, x: 0 }} className="md:text-2xl text-xl mb-16 font-light md:mt-20 mt-10">
+                        I have experience in Machine Learning Frontend Development and automation.
                         I create multiple projects using the following stack.</motion.p>
                     <motion.div viewport={{ once: true }} initial={{ x:isMobile?0:200, opacity: 0 }} transition={{ duration: 0.5 }} whileInView={{ opacity: 1, x: 0 }} className="flex flex-wrap space-x-2">
                         <img src="python.png" className="w-20 h-20" />

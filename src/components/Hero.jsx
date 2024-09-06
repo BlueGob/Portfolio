@@ -17,9 +17,9 @@ export default function Hero() {
                     Welcome, I'm Moslem <span className="wave-emoji">👋</span>
                 </motion.h1>
                 <motion.p transition={{duration:0.5, delay: 0.4}} initial={{x: -300, opacity:0}} animate={{ x: 0, opacity:1 }} className=" pl-5 md:pl-20 pt-10 md:text-3xl text-xl font-light leading-relaxed">
-                    I’m a software engineer with a passion for machine learning, deep learning, and data science.
+                    I’m a software engineer with a passion for machine learning, data and automations tools.
                     I have a strong grasp of Python, C++, and React.js,
-                    and I love building efficient, user-friendly solutions that make a difference.
+                    and I love building efficient and user-friendly solutions.
                 </motion.p>
                 <motion.div transition={{duration:0.5, delay: 0.5}} initial={{y:200, opacity:0}} animate={{ y: 0, opacity:1 }} className="pl-10 pr-10 md:ml-20 md:pt-20 pt-5 flex justify-start space-x-10 text-white items-center">
                     <button className="bg-blue-700 text-white px-2 py-4 md:w-1/5 w-1/2 rounded-full text-lg md:text-xl transition-colors duration-800 hover:bg-white hover:text-blue-700">

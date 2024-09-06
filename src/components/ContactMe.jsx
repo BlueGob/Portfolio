@@ -28,7 +28,7 @@ export default function ContactMe({id}) {
             <div className="grid md:grid-cols-2 grid-col-1 pt-20 pb-20 md:text-left text-center">
                 <div className="order-2 md:order-1">
                     <motion.div viewport={{ once: true }} initial={{ x:isMobile?0:-100,opacity:0}} transition={{ duration:0.5}} whileInView={{ opacity: 1,x:0 }} className="text-white md:text-3xl text-2xl justify-between pb-10 ">
-                        Software Engineer | ML/DL developer | Problem solving
+                        Software Engineer | ML developer | Problem solving
                     </motion.div>
                     <motion.div viewport={{ once: true }} initial={{ x:isMobile?0:-100,opacity:0}} transition={{ duration:0.5}} whileInView={{ opacity: 1,x:0 }} className="text-white text-xl font-thin pb-10">
                       <IoLocationOutline className="inline-block"/>  Tunisia, Tunis
