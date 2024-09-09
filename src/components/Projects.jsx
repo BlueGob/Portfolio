@@ -67,6 +67,17 @@ export default function Projects({ id }) {
                         </div>
                     </div>
                 </motion.a >
+                <motion.a  href="https://github.com/BlueGob/Linear-regression-Go" viewport={{ once: true }}  initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{  duration: 1 }}>
+                    <div className="space-y-3 rounded-lg hover:bg-blue-700 shadow-md shadow-slate-800 p-2 transition duration-300 ease-in-out hover:delay-100">
+                        <div className="text-white text-3xl"><span className="inline-block mr-1"><GoRepo size={25} /></span>Linear-regression-Go</div>
+                        <div className="text-white text-xl font-thin"> simple linear regression with Go from a csv file</div>
+                        <div className="flex flex-row space-x-5 text-white">
+                            <div><span className="inline-block w-3 h-3 bg-zinc-800 rounded-full mr-1"></span>C</div>
+                            <div> <span className="inline-block mr-1"><FaRegStar /> </span>0</div>
+                            <div> <span className="inline-block mr-1"><FaCodeFork /> </span>0</div>
+                        </div>
+                    </div>
+                </motion.a >
             </div>
         </div>
     );
